@@ -63,8 +63,9 @@ onMounted(() => {
         </div>
         <div id="navbarMenuHero" class="navbar-menu pb-1 is-hidden-desktop">
             <div class="navbar-end">
-                <ul>
-                    <li><a class="navbar-item" href="#/about">About</a></li>
+                <ul class="py-2">
+                    <li class="py-1"><a class="navbar-item button is-rounded" href="#/about">About</a></li>
+                    <li><a class="navbar-item button is-rounded" href="#/non-existent-path">Broken Link</a></li>
                 </ul>
             </div>
         </div>
